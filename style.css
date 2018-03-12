@@ -1,0 +1,31 @@
+#filmruta{
+    background-color: #FFE5B5;
+    width:850px;
+    padding:20px;
+}
+
+#filmruta:after {
+    content: " ";
+    display: block;
+    clear: left;
+}
+
+img{
+    margin: 10px;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#bildDiv{
+float:left;
+}
+
+#textDiv{
+    margin-top:30px;
+display: block;
+
+text-align: left;
+}

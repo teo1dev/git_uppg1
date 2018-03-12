@@ -2,13 +2,18 @@
     background-color: #FFE5B5;
     width:850px;
     padding:20px;
+    margin:10px auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+
 }
 
-#filmruta:after {
+/* #filmruta:after {
     content: " ";
     display: block;
     clear: left;
-}
+} */
 
 img{
     margin: 10px;
@@ -24,6 +29,7 @@ float:left;
 }
 
 #textDiv{
+    flex-grow: 1;
     margin-top:30px;
 display: block;
 

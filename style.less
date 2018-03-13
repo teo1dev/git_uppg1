@@ -1,5 +1,9 @@
+@containerBGcolor:#FFE5B5;
+@starsUnfilled:silver;
+@starsFilled:gold;
+
 #filmruta{
-    background-color: #FFE5B5;
+    background-color:@containerBGcolor;
     width:850px;
     padding:20px;
     margin:10px auto;
@@ -37,12 +41,12 @@ text-align: left;
 }
 
 .stars span {
-    color: rgb(180, 180, 180);
+    color: @starsUnfilled;
     user-select: none;
     cursor: pointer;
     font-size: 15px;
   }
 
   .stars .filled {
-    color:#000;
+    color:@starsFilled;
   }

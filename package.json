@@ -1,0 +1,27 @@
+{
+  "name": "css_uppg",
+  "version": "1.0.0",
+  "description": "testing and learning js, css, less etc",
+  "main": "code.js",
+  "scripts": {
+    "generateCSS": "lessc style.less styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teo1dev/git_uppg1.git"
+  },
+  "keywords": [
+    "less",
+    "css",
+    "javascript"
+  ],
+  "author": "Teo D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teo1dev/git_uppg1/issues"
+  },
+  "homepage": "https://github.com/teo1dev/git_uppg1#readme",
+  "devDependencies": {
+    "less": "^3.0.1"
+  }
+}

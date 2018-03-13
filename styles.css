@@ -29,11 +29,11 @@ h1 {
   text-align: left;
 }
 .stars span {
-  color: #b4b4b4;
+  color: silver;
   user-select: none;
   cursor: pointer;
   font-size: 15px;
 }
 .stars .filled {
-  color: #000;
+  color: gold;
 }

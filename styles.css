@@ -1,0 +1,39 @@
+#filmruta {
+  background-color: #FFE5B5;
+  width: 850px;
+  padding: 20px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/* #filmruta:after {
+    content: " ";
+    display: block;
+    clear: left;
+} */
+img {
+  margin: 10px;
+}
+h1 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+#bildDiv {
+  float: left;
+}
+#textDiv {
+  flex-grow: 1;
+  margin-top: 30px;
+  display: block;
+  text-align: left;
+}
+.stars span {
+  color: #b4b4b4;
+  user-select: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+.stars .filled {
+  color: #000;
+}

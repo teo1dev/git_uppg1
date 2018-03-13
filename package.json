@@ -4,7 +4,8 @@
   "description": "testing and learning js, css, less etc",
   "main": "code.js",
   "scripts": {
-    "generateCSS": "lessc style.less styles.css"
+    "generateCSS": "lessc style.less styles.css",
+    "bundle": "webpack"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
   },
   "homepage": "https://github.com/teo1dev/git_uppg1#readme",
   "devDependencies": {
-    "less": "^3.0.1"
+    "less": "^3.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

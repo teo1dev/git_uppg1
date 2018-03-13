@@ -1,9 +1,12 @@
+let movieData = require("./data.js");
+let $=require("jquery");
 function renderMovie(movieData){
     $("#image").attr("src", movieData.image);
     $("#movietitle").text(movieData.title);
     $("#short").text(movieData.short);
 
     let actorList="";
+    console.log("WTH", movieData);
     for(let i=0; i<movieData.actors.length; i++){
         actorList+="<li>"+movieData.actors[i]+"</li>";
     }
@@ -38,4 +41,4 @@ let currentRating;
     });
   }
 
-renderMovie(movieData)
+renderMovie(movieData);

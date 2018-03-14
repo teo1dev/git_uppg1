@@ -10,8 +10,8 @@
     "copyindex": "cp index.html dist/index.html",
     "build": "npm run bundle && npm run generateCSS && npm run copyindex",
     "lintless": "stylelint style.less",
-    "lintjs": "eslint source",
-    "linta": "npm run lintless && npm run lintjs"
+    "lintts": "tslint -c tslint.json 'source/*.ts'",
+    "linta": "npm run lintless && npm run lintts"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,11 @@
   },
   "homepage": "https://github.com/teo1dev/git_uppg1#readme",
   "devDependencies": {
-    "eslint": "^4.18.2",
     "less": "^3.0.1",
     "stylelint": "^9.1.2",
+    "ts-loader": "^4.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2",
     "webpack": "^4.1.1",
     "webpack-cli": "^2.0.11",
     "webpack-dev-server": "^3.1.1",

@@ -2,7 +2,7 @@
   "name": "css_uppg",
   "version": "1.0.0",
   "description": "testing and learning js, css, less etc",
-  "main": "code.js",
+  "main": "source/code.js",
   "scripts": {
     "generateCSS": "lessc style.less dist/styles.css",
     "bundle": "webpack",

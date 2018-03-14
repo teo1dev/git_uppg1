@@ -23,6 +23,12 @@ function changeStarRating(rating){
       }
     }
   }
+
+
+
+
+
+  
   
   //-------------------------------------------------------
 let currentRating;

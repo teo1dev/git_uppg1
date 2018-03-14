@@ -4,30 +4,37 @@
   "description": "testing and learning js, css, less etc",
   "main": "code.js",
   "scripts": {
-    "generateCSS": "lessc style.less styles.css",
-    "bundle": "webpack"
+    "generateCSS": "lessc style.less dist/styles.css",
+    "bundle": "webpack",
+    "start:dev": "webpack-dev-server",
+    "copyindex": "cp index.html dist/index.html", 
+    "build": "npm run bundle && npm run generateCSS && npm run copyindex"
+
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/teo1dev/git_uppg1.git"
-  },
-  "keywords": [
-    "less",
-    "css",
-    "javascript"
-  ],
-  "author": "Teo D",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/teo1dev/git_uppg1/issues"
-  },
-  "homepage": "https://github.com/teo1dev/git_uppg1#readme",
-  "devDependencies": {
-    "less": "^3.0.1",
-    "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
-  },
-  "dependencies": {
-    "jquery": "^3.3.1"
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/teo1dev/git_uppg1.git"
+    },
+    "keywords": [
+      "less",
+      "css",
+      "javascript"
+    ],
+    "author": "Teo D",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/teo1dev/git_uppg1/issues"
+    },
+    "homepage": "https://github.com/teo1dev/git_uppg1#readme",
+    "devDependencies": {
+      "less": "^3.0.1",
+      "webpack": "^4.1.1",
+      "webpack-cli": "^2.0.11",
+      "webpack-dev-server": "^3.1.1",
+      "webpack-notifier": "^1.6.0"
+    },
+    "dependencies": {
+      "jquery": "^3.3.1"
+    }
   }
-}
+  

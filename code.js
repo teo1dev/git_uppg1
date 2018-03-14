@@ -42,3 +42,5 @@ let currentRating;
   }
 
 renderMovie(movieData);
+
+console.log("HAHA!")

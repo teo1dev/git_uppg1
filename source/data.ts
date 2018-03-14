@@ -1,4 +1,5 @@
-export const movieData = {
+import { Review } from "./interfaces";
+export const movieData: Review = {
     // tslint:disable-next-line:max-line-length
     image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNjFlOTI2OGQtMzg0YS00ZGE4LTkwMjEtZDUzYThlOTU5YjQ5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
     title: "Godzilla",

@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/teo1dev/git_uppg1#readme",
   "devDependencies": {
+    "@types/jquery": "^3.3.1",
     "less": "^3.0.1",
     "stylelint": "^9.1.2",
     "ts-loader": "^4.0.1",

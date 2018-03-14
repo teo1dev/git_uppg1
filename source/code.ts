@@ -1,7 +1,8 @@
 import * as $ from "jquery";
 import {movieData} from "./data";
-// tslint:disable-next-line:no-shadowed-variable
-function renderMovie(movieData) {
+import { Review } from "./interfaces";
+
+function renderMovie(data: Review) {
     $("#image").attr("src", movieData.image);
     $("#movietitle").text(movieData.title);
     $("#short").text(movieData.short);
